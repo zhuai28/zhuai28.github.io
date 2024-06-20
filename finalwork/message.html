@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>留言墙</title>
+	<link rel="stylesheet" href="./css/message.css">
+</head>
+<body>
+	<!-- 标题 -->
+	<h1>如果你想和我交个朋友的话，请给我留言！</h1>
+	<form>
+		<div class="tableRow">
+			<p>
+				选择你的所在省：
+			</p>
+			<!-- 下拉菜单 -->
+			<p>
+				<select name="location">
+				  <option value="湖北" selected>湖北省</option>
+				  <option value="湖南">湖南省</option>
+				  <option value="广西">广西省</option>
+				  <option value="江西">江西省</option>
+				</select>
+			</p>
+		</div>
+
+		<div class="tableRow">
+			<!-- 下拉菜单 -->
+			<p>
+				选择你的所在城市：
+			</p>
+			<p>
+				<select name="location">
+				  <option value="武汉市" selected>武汉市</option>
+				  <option value="永州市">永州市</option>
+				  <option value="桂平市">桂平市</option>
+				  <option value="南昌市">南昌市</option>
+				</select>
+			</p>
+		</div>
+		<div class="tableRow">
+		<p> 身份: </p>
+		<!-- 单选框 -->
+		<p>
+            <input type="radio" name="身份" value="student" checked> 大学生<br>
+            <input type="radio" name="身份" value="graduate" > 已经工作
+		</p>
+		</div>
+
+		<div class="tableRow">
+			<p> 年龄: </p>
+			<!-- 数字选择 -->
+			<p> <input type="number" name="岁" min="16" max="30"> </p>
+		</div>
+
+		<div class="tableRow">
+			<p> 姓名: </p>
+			<!-- 文本框 -->
+			<p> <input type="text" name="name" value=""  required> </p>
+		</div>
+		<div class="tableRow">
+			<p> 电话号码: </p>
+			<!-- 文本框 -->
+			<p> <input type="text" name="address" value="" placeholder="+86" required> </p>
+		</div>
+		<div class="tableRow">
+			<p> QQ号: </p>
+			<!-- 文本框 -->
+			<p> <input type="text" name="QQ"  required> </p>
+		</div>
+
+		<div class="tableRow">
+			<p> 你的留言: </p>
+			<!-- 文本域 -->
+			<p>
+				<textarea name="message" placeholder="有什么想说的话都可以写在这里"></textarea>
+			</p>
+		</div>
+		<div class="tableRow">
+			<!-- 提交按钮 -->
+			<p> <input type="submit" value="提交"> </p>
+		</div>
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,127 @@
+body{
+    margin:0;
+}
+
+div.inner{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#header{
+    height: 100px;background-color: white;
+}
+
+#nav{
+	height: 100px;
+    width: 100%;
+	margin: 0 auto;
+	text-align: center;
+    /* 字体居中显示 */
+	background-color: #F0F8FF;
+}
+
+
+#bb{
+    width: 1050px;
+	height: 55px;
+	line-height: 50px;
+	text-align: center;
+    /* 字体居中显示 */
+	background-color: #efe5d0;
+	margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;    
+    /* 字体居中显示 */
+    background-color: rgb(192, 220, 116);
+    line-height: 50px;
+    color:white;  
+    display: inline-block;  
+    /* 转换为行内块元素 */
+}
+
+a:hover{
+      background-color: indianred;
+      color:#F0F8FF
+  }
+  /* 超链接鼠标悬浮改变字体颜色以及背景颜色 */
+
+
+
+div#sidebar{
+    background:       #efe5d0  bottom right;
+    font-size:        105%;
+    width: 150px;
+    padding: 0px 20px 20px 20px;
+    margin-left: 20px;
+    top: 128px;
+    right: 0px;
+    float:right;
+}
+
+div#content{
+    height: 600px;
+    background: url(../images/3fc54f2b553dc552c23fd2df0ee0159e.jpg) no-repeat center 0;
+    padding-top: 25px;
+}
+
+
+
+/* 设置边栏的表格样式 */
+table{
+    width: 50%;
+    margin-left: 20px;
+    border: thin solid black;
+    caption-side: top;
+    background-color: rgb(232, 226, 108);
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 2px blue solid;
+    padding: 10px;
+}
+caption{
+    font-style: italic;
+    padding-top: 8px;
+}
+
+
+/* 盒模型设置3个分栏 */
+div#container1{
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+div#container2{
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+div#container3{
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+/* 页脚区 */
+#footer{
+	margin:0 auto;
+	clear:both;
+	height:200px;
+	background:url(../images/3fc54f2b553dc552c23fd2df0ee0159e.jpg) no-repeat center;
+	border-bottom:1px #333333 solid;
+	border-left:1px #333333 solid;
+	border-right:1px #333333 solid;
+}
+#footer .copy{
+	width:600px;
+	float:right;
+	text-align:center;
+	font-size:10px;
+}

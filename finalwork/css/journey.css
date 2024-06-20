@@ -1,0 +1,61 @@
+body { 
+    background-color: #565656;
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        medium;
+    margin:           0px;
+}
+  
+#header {
+      background-color: #ebebeb;
+      font-size: 300%;
+      margin: 10px 10px 0px 10px;
+      height:           108px;
+}
+  
+#tableContainer {
+      display: table;
+      border-spacing: 10px;
+}
+  
+#tableRow {
+      display: table-row;
+}
+  
+#experience {
+    font-size: 120%;
+    display: table-cell;
+    background-color: #ebebeb;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+  
+#main {
+    display: table-cell;
+    background:       #ebebeb top left;
+    font-size:        120%;
+    width: 40%;
+    padding:          15px;
+    vertical-align: top;
+}
+  
+#sidebar {
+    display: table-cell;
+    background:       #ebebeb  bottom right;
+    font-size:  120%;
+    width: 20%;
+    padding:          15px;
+    vertical-align: top;
+}
+  
+  
+h1 {
+    font-size:        120%;
+    color:            #954b4b;
+}
+  
+  
+  
+  
+  
+  
